@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Place Gym | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fa-solid fa-dumbbell"></i>
+                The Place Gym
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <button id="theme-toggle"><i class="fa-regular fa-moon theme-icon"></i></button>
+                <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO (image slider)-->
+
+    <section class="hero">
+        <div class="slider">
+            <img src="image/pic1.jpg" class="slide active" alt="Gym" />
+            <img src="image/pic2.jpg" class="slide" alt="Workout" />
+            <img src="image/pic4.jpg" class="slide" alt="Fitness" />
+        </div>
+        <div class="hero-content">
+            <h1>Build Your Strongest Self</h1>
+            <p>
+                Welcome to The Place Gym. Professional trainers, modern equipment, and
+                personalized fitness programs.
+            </p>
+            <a href="pages/services.html" class="btn"> Join Now </a>
+            <a href="pages/about.html" class="btn btn-outline"> Learn More </a>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-container">
+            <div class="feature-card"><i class="fa-solid fa-dumbbell"></i>
+                <h3>Modern Equipment</h3>
+                <p>Latest strength and cardio machines.</p>
+            </div>
+            <div class="feature-card"><i class="fa-solid fa-user-group"></i>
+                <h3>Certified Trainers</h3>
+                <p>Expert guidance from professional coaches.</p>
+            </div>
+            <div class="feature-card"><i class="fa-solid fa-clock"></i>
+                <h3>Flexible Schedule</h3>
+                <p>Open every day from 5AM to 11PM.</p>
+            </div>
+            <div class="feature-card"><i class="fa-solid fa-heart"></i>
+                <h3>Healthy Lifestyle</h3>
+                <p>Supportive community and nutrition advice.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBERSHIP -->
+
+    <section class="membership">
+        <h2>Membership Plans</h2>
+        <div class="plan-container">
+            <div class="plan">
+                <h3>Basic</h3>
+                <h1>$20</h1>
+                <p>Per Month</p>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Locker</li>
+                    <li>Free WiFi</li>
+                </ul>
+                <a href="#" class="btn"> Join </a>
+            </div>
+
+            <div class="plan">
+                <h3>Premium</h3>
+                <h1>$45</h1>
+                <p>Per Month</p>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Personal Trainer</li>
+                    <li>Group Classes</li>
+                    <li>Nutrition Advice</li>
+                </ul>
+                <a href="#" class="btn"> Join </a>
+            </div>
+
+            <div class="plan">
+                <h3>VIP</h3>
+                <h1>$75</h1>
+                <p>Per Month</p>
+                <ul>
+                    <li>Unlimited Access</li>
+                    <li>Trainer</li>
+                    <li>Massage</li>
+                    <li>Private Room</li>
+                </ul>
+                <a href="#" class="btn"> Join </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+
+    <section class="testimonial">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial-box">
+            <p>
+                "I lost 10kg in five months. The trainers are friendly and the gym is
+                always clean."
+            </p>
+            <h4>- Sarah Kim</h4>
+        </div>
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta">
+        <h2>Ready To Transform Your Body?</h2>
+        <p>Start your fitness journey today.</p>
+        <a href="pages/contact.html" class="btn"> Contact Us </a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>The Place Gym</h3>
+                <p>
+                    289 Street
+                    <br />
+                    Phnom Penh
+                </p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Phone: +855 12 345 678</p>
+                <p>Email: info@theplacegym.com</p>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="https://www.facebook.com/share/18xyMMFLyt/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/theplacegym?igsh=dWhybGdhaDg3b3Y="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@theplacegym?_r=1&_t=ZS-97uA0rLEg0j"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© 2026 The Place Gym. Anjulie</p>
+    </footer>
+
+    <button onclick="moveToTop()" class="scrollUp" id="scrollToTopButton">
+        Move to Top
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

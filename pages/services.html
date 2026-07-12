@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Place Gym | Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo"><i class="fa-solid fa-dumbbell"></i>
+            The Place Gym
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="nav-icons">
+            <button id="theme-toggle"><i class="fa-regular fa-moon theme-icon"></i></button>
+            <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+          </div>
+        </nav>
+      </header>
+
+    <section class="services-page">
+      <h1>Our Services</h1>
+      <p>Choose the perfect fitness program that fits your goals.</p>
+    </section>
+
+    <!-- FILTER BUTTONS -->
+
+    <section class="filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="training">Training</button>
+      <button class="filter-btn" data-filter="classes">Classes</button>
+      <button class="filter-btn" data-filter="nutrition">Nutrition</button>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="service-container">
+      <div class="service-card" data-category="training">
+        <img src="../image/pic3.jpg" alt="Personal Training" />
+        <div class="service-card-info">
+          <h2>Personal Training</h2>
+          <h3>$50 / Month</h3>
+          <p>
+            One-on-one coaching with certified trainers to achieve your fitness
+            goals faster.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-category="classes">
+        <img src="../image/gymClass.jpg" alt="Group Classes" />
+        <div class="service-card-info">
+          <h2>Group Fitness Classes</h2>
+          <h3>$35 / Month</h3>
+          <p>
+            Enjoy Yoga, HIIT, Zumba, Cardio, and Strength classes with
+            experienced instructors.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-category="nutrition">
+        <img src="../image/nutrition.jpg" alt="Nutrition" />
+        <div class="service-card-info">
+          <h2>Nutrition Consultation</h2>
+          <h3>$25 / Session</h3>
+          <p>
+            Receive personalized meal plans and nutrition advice from our
+            professional coaches.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h3>The Place Gym</h3>
+          <p>289 Street
+             <br />
+             Phnom Penh
+          </p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>+855 12 345 678</p>
+          <p>info@theplacegym.com</p>
+        </div>
+
+        <div>
+          <h3>Follow Us</h3>
+          <div class="socials">
+            <a href="https://www.facebook.com/share/18xyMMFLyt/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/theplacegym?igsh=dWhybGdhaDg3b3Y="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@theplacegym?_r=1&_t=ZS-97uA0rLEg0j"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 The Place Gym. A</p>
+    </footer>
+
+    <button onclick="moveToTop()" class="scrollUp" id="scrollToTopButton">Move to Top</button>
+
+    <script src="../script.js"></script>
+</body>
+</html>

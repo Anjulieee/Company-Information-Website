@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Place Gym | Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .socials a {
+      color: black;
+      font-size: 22px;
+      margin-right: 15px;
+    }
+      .dark .socials a {
+    color: white;
+    font-size: 22px;
+    margin-right: 15px;
+  }
+
+  </style>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><i class="fa-solid fa-dumbbell"></i>
+          The Place Gym
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <button id="theme-toggle"><i class="fa-regular fa-moon theme-icon"></i></button>
+          <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contact-page">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you!</p>
+    </section>
+
+    <section class="contact-container">
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Visit Our Gym</h2>
+        <p>
+          289 Street
+          <br />
+          Phnom Penh, Cambodia
+        </p>
+        <p>+855 12 345 678</p>
+        <p>✉ info@theplacegym.com</p>
+
+        <div class="socials">
+          <a href="https://www.facebook.com/share/18xyMMFLyt/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/theplacegym?igsh=dWhybGdhaDg3b3Y="><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@theplacegym?_r=1&_t=ZS-97uA0rLEg0j"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7817.274764453065!2d104.89735191035534!3d11.577832143853822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517a75ba731b%3A0xbd25950a19612cd6!2sThe%20Place%20Gym%20TK!5e0!3m2!1sen!2skh!4v1783763349895!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h3>The Place Gym</h3>
+          <p>
+            289 Street
+            <br />
+            Phnom Penh
+          </p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>+855 12 345 678</p>
+          <p>info@theplacegym.com</p>
+        </div>
+
+        <div>
+          <h3>Follow Us</h3>
+          <div class="socials">
+            <a href="https://www.facebook.com/share/18xyMMFLyt/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/theplacegym?igsh=dWhybGdhaDg3b3Y="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@theplacegym?_r=1&_t=ZS-97uA0rLEg0j"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 The Place Gym. All Rights Reserved.</p>
+    </footer>
+
+    <button onclick="moveToTop()" class="scrollUp" id="scrollToTopButton">Move to Top</button>
+
+    <script src="../script.js"></script>
+</body>
+</html>
